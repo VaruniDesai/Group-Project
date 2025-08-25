@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(165deg, rgb(103, 194, 159), rgb(225, 140, 13));
+}
+
+form {
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(194, 160, 160);
+    border-radius: 10px;
+}
+
+form input {
+    width: 150px;
+    height: 20px;
+    padding-left: 5px;
+}
+
+#submit_btn {
+    height: 20px;
+    width: 80px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+#submit_btn:hover {
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+}
+
+
+#reset_btn {
+height: 20px;
+    width: 80px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+     transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+#reset_btn:hover {
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+}
